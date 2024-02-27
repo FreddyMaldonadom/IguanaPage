@@ -31,7 +31,10 @@ body{
     width: 33%;
     padding: 30px;
     gap: 30px;
-    display: grid;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
 
 }
 
@@ -49,9 +52,11 @@ width: 100%;
 /*CLASES*/
 .fa-solid{
     color: #fff;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
+
 .columnaimagenes{
     display: flex;
     gap: 10px;
@@ -62,7 +67,7 @@ width: 100%;
 }
 
 .imgiguana img {
-    width: 80;
+    width: 80%;
     height: 250px;
     object-fit: cover;
     margin: 50px;
@@ -104,7 +109,9 @@ p{
     padding: 0%;
 }
 .texfooter{
-   
     padding: 30px;
     text-align: center;
+}
+.link{
+    color: #fff;
 }
